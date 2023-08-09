@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#2A3759 ;
+}
+.head{
+    border-radius: 24px;
+    background: #431D32;
+    height: 10vh;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.head-text{
+    font-family: 'Ubuntu', sans-serif;
+    color: #778FD2;
+}
+.recipes1{
+    margin-top: 10px;
+    background: #431D32;
+    width: fit-content;
+    border-radius: 24px ;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.recipes1-text{
+    margin-right: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #778FD2;
+
+}
+.recipes1-img{
+    border-radius: 24px;
+}
+.recipes{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.recipes1:hover{
+    box-shadow: 4px 4px 10px 0px rgba(67, 29, 50, 1);
+
+}
